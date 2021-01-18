@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*:focus {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+
+.dark-svg {
+    fill : #F2EBEB;
+}
+
+.light-svg {
+    fill : #374151
+}
+
+@layer utilities{
+.filter-blur{
+    filter: blur(15px);
+}
+}

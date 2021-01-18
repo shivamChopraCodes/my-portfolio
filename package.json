@@ -1,0 +1,27 @@
+{
+  "name": "my_portfolio_npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.1",
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2",
+    "tailwindcss-filters": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "tailwind build ./src/css/app.css -o ./public/app.css "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivamChopraCodes/my-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivamChopraCodes/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/shivamChopraCodes/my-portfolio#readme"
+}
